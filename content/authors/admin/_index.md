@@ -28,37 +28,28 @@ skills:
     icon: python
     icon_pack: fab
     name: Python
-    percent: 80
+    percent: 70
   - description: ""
-    icon: chart-line
+    icon: r-project
     icon_pack: fas
-    name: Data Science
-    percent: 100
+    name: R
+    percent: 85
   - description: ""
-    icon: database
+    icon: linux
     icon_pack: fas
-    name: SQL
+    name: Bash
+    percent: 65
+  - description: ""
+    icon: mysql
+    icon_pack: fas
+    name: mySQL
     percent: 40
   name: Technical
 - color: '#eeac02'
   color_border: '#f0bf23'
-  items:
-  - description: ""
-    icon: person-hiking
-    icon_pack: fas
-    name: Hiking
-    percent: 60
-  - description: ""
-    icon: cat
-    icon_pack: fas
-    name: Cats
-    percent: 100
-  - description: ""
-    icon: camera-retro
-    icon_pack: fas
-    name: Photography
-    percent: 80
-  name: Hobbies
+
+  
+  
 social:
 - icon: envelope
   icon_pack: fas
