@@ -13,10 +13,10 @@ main:
   - name: Projects
     url: '#projects'
     weight: 30
-  - name: Talks
+  - name: Python
     url: '#talks'
     weight: 40
-  - name: Publications
+  - name: R
     url: '#featured'
     weight: 50
   - name: Contact
