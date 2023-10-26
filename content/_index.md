@@ -52,26 +52,27 @@ sections:
   content:
     date_format: Jan 2006
     items:
-    - company: GenCoin
+    - company: Iris-cc
       company_logo: org-gc
       company_url: ""
       date_end: ""
       date_start: "2023-09-01"
+      title: Technologist
       description: |2-
           Responsibilities include:
 
           * Analysing single cell multiomics perturbations with ML 
-      location: Iris-cc / UVic-UCC
-      title: Ph.D.
-    - company: University X
-      company_logo: org-x
+          
+    - company: Vall d'Hebron / UVic-UCC
+      company_logo: 
       company_url: ""
-      date_end: "2020-12-31"
-      date_start: "2016-01-01"
-      description: Taught electronic engineering and researched semiconductor physics.
-      location: California
-      title: Professor of Semiconductor Physics
+      date_end: "2023-12-31"
+      date_start: "2023-01-01"
+      description: Developing my master thesis. Comparison of single cell trajectory inference methods
+      location: Barcelona
+      title: MSc student
     title: Experience
+    
   design:
     columns: "2"
 - block: accomplishments
@@ -113,6 +114,9 @@ sections:
     columns: "2"
     view: compact
   id: posts
+  
+  
+  
 - block: portfolio
   content:
     buttons:
