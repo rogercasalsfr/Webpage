@@ -5,6 +5,8 @@
 
 # Appearance
 
+
+#We can change appearance, trying things in the "Guide"
 appearance:
   theme_day: minimal
   theme_night: minimal
