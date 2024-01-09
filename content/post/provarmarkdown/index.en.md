@@ -6,7 +6,7 @@ categories: ["R"]
 tags: ["R Markdown", "single cell RNA", "Seurat"]
 ---
 
-
+{{< icon name="download" pack="fas" >}} Download the HTML {{< staticref "uploads/index.en.html" "newtab" >}}CV{{< /staticref >}}.
 
 # R Markdown
 
