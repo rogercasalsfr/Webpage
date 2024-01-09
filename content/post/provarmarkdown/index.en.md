@@ -16,7 +16,7 @@ tags: ["R Markdown", "single cell RNA", "Seurat"]
 
 # Squamos cell carcionma 
 
-```{r}
+```r
 
 #setwd("C:/Users/Roger Casals/OneDrive/Escriptori/UOC ROGER/2n semestre/TFM/Final 5_5")
 setwd("C:/Users/Natàlia/Desktop/UOC ROGER/2n semestre/TFM/Primera prova")
@@ -32,7 +32,7 @@ expression_data <- read.table("GSE123813_scc_scRNA_counts.txt.gz", header=TRUE, 
 
 Carreguem les diferents llibreries
 
-```{r}
+```r
 library(Seurat)
 library(SeuratWrappers)
 library(monocle3)
@@ -57,7 +57,7 @@ library(dyneval)
 
 ### Objecte Seurat
 
-```{r}
+```r
 
 
 aa <- CreateSeuratObject(counts=expression_data, project="GSE123813", metadata=metadata2)
@@ -81,7 +81,7 @@ aa@meta.data <- aa@meta.data[order(row.names(aa@meta.data)), ]
 
 ### Afegim metadata a Seurat
 
-```{r}
+```r
 
 aa@meta.data$cluster <- metadata2$cluster
 aa@meta.data$treatment <- metadata2$treatment
@@ -102,7 +102,7 @@ ENS CENTRAREM AMB LES CD4 perquè hem vist a la teoria que les "naive" es poden 
 
 #### Control de qualitat
 
-```{r}
+```r
 
 #Obtenim els percentatges de gens mitocontrials i ribosòmics, per saber si les cèl·lules estan estressades.
 aa <- PercentageFeatureSet(aa, "^MT-", col.name="percent_mito")
@@ -195,7 +195,7 @@ S'ha escollit el cluster 0.3, ja que és el mateix que utilitzen a l'article, i 
 
 ## Rename idents
 
-```{r}
+```r
 
 CD4tots <- RenameIdents(CD4tots, "2" = "CD8_Naive")
 CD4tots <- RenameIdents(CD4tots, "7" = "CD8_Naive")
@@ -219,7 +219,7 @@ CD4tots <- RenameIdents(CD4tots, "6" = "CD8_eff")
 #El 10 no el posem
 
 ```
-```{r}
+```r
 
 CD4tots <- RenameIdents(CD4tots, "5" = "CD8_Naive")
 CD4tots <- RenameIdents(CD4tots, "14" = "CD8_Naive")
@@ -258,7 +258,7 @@ CD4tots <- RenameIdents(CD4tots, "6" = "Th17")
 
 Creem una nova columna a la metadata amb els "idents" d'aquests clusters
 
-```{r}
+```r
 CD4tots@meta.data$idents <- Idents(CD4tots)
 
 ```
@@ -269,12 +269,12 @@ CD4tots@meta.data$idents <- Idents(CD4tots)
 ### Només grups interessants
 Realitzem un subset, identificant només els grups que hem pogut nombrar amb els clusters, i els representem per a veure'ls.
 
-```{r}
+```r
 CD8tots <- subset(CD4tots, idents %in% c("CD8_ex", "CD8_mem", "CD8_eff", "CD8_Naive", "CD8_ex_act", "CD8_act", "Naive", "Treg", "Th17", "Tfh"))
 ```
 
 
-```{r}
+```r
 CD8tots <- subset(CD4tots, cluster %in% c("CD8_ex", "CD8_mem", "CD8_eff", "CD8_naive", "CD8_ex_act", "CD8_act"))
 
 CD4totssubset <- CD8tots
@@ -300,7 +300,7 @@ plot1 | plot2
 Identifiquem els nous grups segons la seva condició de tractament, és a dir, si són "pre" o "post", els separem mitjançant un guió baix.
 
 
-```{r}
+```r
 
 CD4totssubset$celltype.cnd <- paste0(CD4totssubset$treatment, "_", CD4totssubset$idents)
 
@@ -312,7 +312,7 @@ DimPlot(CD4totssubset, reduction = "umap", group.by="celltype.cnd", label=T)
 
 Identifiquem els Idents del cluster, com al que hem definit.
 
-```{r}
+```r
 
 Idents(CD4totssubset) <- CD4totssubset$celltype.cnd
 
@@ -324,7 +324,7 @@ Idents(CD4totssubset) <- CD4totssubset$celltype.cnd
 
 Calculem el percentatge de cada cèl·lula
 
-```{r}
+```r
 
 prop.table(table(CD4totssubset@meta.data$celltype.cnd))*100
 
@@ -332,7 +332,7 @@ prop.table(table(CD4totssubset@meta.data$celltype.cnd))*100
 table(CD4totssubset@meta.data$celltype.cnd)
 
 ```
-```{r}
+```r
 
 
 CD4totssubset@meta.data$cluster_redefined <- CD4totssubset@meta.data$cluster
@@ -343,7 +343,7 @@ CD4totssubset@meta.data$cluster_redefined <- CD4totssubset@meta.data$cluster
 
 
 
-```{r}
+```r
 
 CD8totssubset <- CD4totssubset
 
