@@ -12,8 +12,8 @@ links:
 slides: example
 summary: An example of using the in-built project page.
 tags:
-- Deep Learning
-title: Example Project
+- Master thesis
+title: Comparison of Single Cell trajectory inference methods in cancer immunotherapy
 url_code: ""
 url_pdf: ""
 url_slides: ""
