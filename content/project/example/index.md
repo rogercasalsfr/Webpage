@@ -9,7 +9,7 @@ links:
   icon_pack: fab
   name: Follow
   url: 
-slides: example
+slides: {{< icon name="download" pack="fas" >}} Download the HTML {{< staticref "uploads/index.en.html" "newtab" >}}Pre-Processing Seurat{{< /staticref >}}. 
 summary: An example of using the in-built project page.
 tags:
 - Master thesis
