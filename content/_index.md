@@ -52,7 +52,7 @@ sections:
   content:
     date_format: Jan 2006
     items:
-    - company: Iris-cc
+    - company: IRIS-CC
       company_logo: org-gc
       company_url: ""
       date_end: ""
