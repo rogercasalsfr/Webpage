@@ -3,11 +3,11 @@ Tools developed for the IRIS-CC framework
 
 -R language
 -
-Single-cell RNA-seq
+1. Single-cell RNA-seq
 
-  Pre-processing (Seurat)
-  Downstream analysis
-    Trajectory inference analysis (pseudotime)
+  2. Pre-processing (Seurat)
+  3. Downstream analysis
+    3.1 Trajectory inference analysis (pseudotime)
       -Monocle3
       -Dynverse
     -Enrichment analysis (enrichGO, hallmark pathways)
