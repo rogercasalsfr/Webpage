@@ -118,7 +118,7 @@ sections:
     order: desc
     subtitle: ""
     text: ""
-    title: Recent Posts
+    title: Tools
   design:
     columns: "2"
     view: compact
