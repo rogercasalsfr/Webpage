@@ -7,10 +7,11 @@ image:
   caption: ""
   focal_point: ""
 lastMod: "2019-09-05T00:00:00Z"
-projects: []
+projects: [Comparison of Single Cell trajectory inference methods in cancer immunotherapy
+Gene expression prediction under novel conditions using ATAC-seq-informed regulons]
 subtitle: inferring enhancer-driven Gene Regulatory Networks (eGRNs) using SCENIC+
 summary: inferring enhancer-driven Gene Regulatory Networks (eGRNs) using SCENIC+
-tags: []
+tags: [python]
 title: SCENIC+
 ---
 
