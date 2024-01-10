@@ -8,10 +8,10 @@ image:
   focal_point: ""
 lastMod: "2019-09-05T00:00:00Z"
 projects: []
-subtitle: Learn how to blog in Academic using Jupyter notebooks
-summary: Learn how to blog in Academic using Jupyter notebooks
+subtitle: Last step of scenic+
+summary: We find the regulons
 tags: []
-title: Display Jupyter Notebooks with Academic
+title: Scenic+ find regulons
 ---
 
 
