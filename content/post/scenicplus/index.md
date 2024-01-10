@@ -14,7 +14,7 @@ tags: []
 title: Scenic+
 ---
 
-{{< icon name="download" pack="fas" >}} Download the HTML {{< staticref "uploads/index.en.html" "newtab" >}}Pre-Processing Seurat{{< /staticref >}}.
+# {{< icon name="download" pack="fas" >}} Download the HTML {{< staticref "uploads/index.en.html" "newtab" >}}Pre-Processing Seurat{{< /staticref >}}.
 
 ```python
 #Install and import libraries
