@@ -8,10 +8,10 @@ image:
   focal_point: ""
 lastMod: "2019-09-05T00:00:00Z"
 projects: []
-subtitle: Learn how to blog in Academic using Jupyter notebooks
-summary: Learn how to blog in Academic using Jupyter notebooks
+subtitle: inferring enhancer-driven Gene Regulatory Networks (eGRNs) using SCENIC+
+summary: inferring enhancer-driven Gene Regulatory Networks (eGRNs) using SCENIC+
 tags: []
-title: Display Jupyter Notebooks with Academic
+title: SCENIC+
 ---
 
 ```python
