@@ -4,6 +4,7 @@ Tools developed for the IRIS-CC framework
 -R language
 -
 -Single-cell RNA-seq
+
   -Pre-processing (Seurat)
   -Downstream analysis
     -Trajectory inference analysis (pseudotime)
