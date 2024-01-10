@@ -87,6 +87,15 @@ sections:
       organization_url: https://www.coursera.org
       title: CAE Advanced C1
       url: ""
+      
+    - certificate_url: Finalist 1st VHIO Computational Master Thesis Award 2023
+      date_end: ""
+      date_start: "2024-02-21"
+      description: ""
+      organization: Vall d'Hebron Institute Oncology
+      organization_url: https://www.coursera.org
+      title: Finalist 1st VHIO Computational Master Thesis Award 2023
+      url: "https://vhio.net/vhio-computational-oncology-master-thesis-award/"
    
     subtitle: null
     title: Accomplish&shy;ments
