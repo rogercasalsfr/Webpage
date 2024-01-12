@@ -5,7 +5,7 @@ Tools developed for the IRIS-CC framework
 
 Single-cell RNA-seq
 
-Pre-processing (Seurat)
+	Pre-processing (Seurat)
 
 	Downstream analysis
  
@@ -26,28 +26,31 @@ Single-cell ATAC-seq
 
 **Python language**
 
--Scenic+ (GRNs build)
-  -Integration of single cell omics (RNA and ATAC)
+Scenic+ (GRNs build)
 
- 
-    -scRNA-seq preprocessing using Scanpy
-    -scATAC-seq preprocessing using pycisTopic
-    -Motif enrichment analysis using pycistarget
+	Integration of single cell omics (RNA and ATAC)
 
+		scRNA-seq preprocessing using Scanpy
+    		
+      		scATAC-seq preprocessing using pycisTopic
+    		
+      		Motif enrichment analysis using pycistarget
+		
+  		inferring enhancer-driven Gene Regulatory Networks (eGRNs) using SCENIC+
 	
-    -inferring enhancer-driven Gene Regulatory Networks (eGRNs) using SCENIC+
+	Downstream analysis
 
-	
-Downstream analysis
+**Machine learning models**
 
--Machine learning models
--
-  -Linear Regression
-  -Random forest
-  -Support Vector Machine
+	Linear Regression
   
--Deep learning models
--
- -Neural networks
- -Variational Autoencoders
+ 	Random forest
+	
+ 	Support Vector Machine
+  
+**Deep learning models**
+
+	Neural networks
+ 
+ 	Variational Autoencoders
 
