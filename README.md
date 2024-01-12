@@ -10,7 +10,6 @@ Tools developed for the IRIS-CC framework
       3.1.1. Monocle3
       -Dynverse
     -Enrichment analysis (enrichGO, hallmark pathways)
-     
 -Single-cell ATAC-seq
   -Pre-processing (Seurat, Signac)
   -Downstream analysis (Signac)
