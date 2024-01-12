@@ -7,6 +7,8 @@ Tools developed for the IRIS-CC framework
   2. Pre-processing (Seurat)
   3. Downstream analysis
     3.1. Trajectory inference analysis (pseudotime)
+
+     
       3.1.1. Monocle3
       -Dynverse
     -Enrichment analysis (enrichGO, hallmark pathways)
@@ -18,11 +20,19 @@ Tools developed for the IRIS-CC framework
 -Python language
 -
 -Scenic+ (GRNs build)
+
+
   -Integration of single cell omics (RNA and ATAC)
+
+ 
     -scRNA-seq preprocessing using Scanpy
     -scATAC-seq preprocessing using pycisTopic
     -Motif enrichment analysis using pycistarget
+
+	
     -inferring enhancer-driven Gene Regulatory Networks (eGRNs) using SCENIC+
+
+	
 Downstream analysis
 
 -Machine learning models
