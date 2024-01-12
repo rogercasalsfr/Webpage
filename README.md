@@ -1,27 +1,23 @@
 # Webpage
 Tools developed for the IRIS-CC framework
 
--R language
--
-1. Single-cell RNA-seq
-  2. Pre-processing (Seurat)
-  3. Downstream analysis
-    3.1. Trajectory inference analysis (pseudotime)
+**R language**
+Single-cell RNA-seq
+Pre-processing (Seurat)
+	Downstream analysis
+	Trajectory inference analysis (pseudotime)
+		Monocle3
+      		Dynverse
+    		Enrichment analysis (enrichGO, hallmark pathways)
 
-     
-      3.1.1. Monocle3
-      -Dynverse
-    -Enrichment analysis (enrichGO, hallmark pathways)
--Single-cell ATAC-seq
-  -Pre-processing (Seurat, Signac)
-  -Downstream analysis (Signac)
+Single-cell ATAC-seq
+  	Pre-processing (Seurat, Signac)
+  	Downstream analysis (Signac)
 
 
--Python language
--
+**Python language**
+
 -Scenic+ (GRNs build)
-
-
   -Integration of single cell omics (RNA and ATAC)
 
  
