@@ -75,10 +75,10 @@ social:
 status:
   icon: ☕️
 superuser: true
-title: Roger Casals Franch
+title: IRIS-CC omics
 ---
 
-Welcome to my website. I am Roger Casals, a dedicated Ph.D. student at the University of Vic (UVic-UCC). My primary focus lies in the development of advanced tools for the analysis of omics data. With a deep-seated passion for this field, I am motivated to contribute to the expansion of knowledge and innovation within omics data analysis. I am currently affiliated with Iris-cc, a prestigious research institution located in Vic, committed to generating scientific knowledge in the life and health sciences. 
+Welcome to the IRIS-CC omics tools webpage. The web is organized with transcriptomic tools, based on single cell RNA-seq analysis. 
 
 {style="text-align: justify;"}
 
