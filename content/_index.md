@@ -38,69 +38,10 @@ sections:
       text_color_light: true
 - block: about.biography
   content:
-    title: Biography
+    title: Tools
     username: admin
   id: about
-- block: skills
-  content:
-    text: ""
-    title: Skills
-    username: admin
-  design:
-    columns: "1"
-- block: experience
-  content:
-    date_format: Jan 2006
-    items:
-    - company: IRIS-CC
-      company_logo: org-gc
-      company_url: ""
-      date_end: ""
-      date_start: "2023-09-01"
-      title: Technologist
-      description: |2-
-          Responsibilities include:
 
-          * Analysing single cell multiomics perturbations with ML 
-          
-    - company: Vall d'Hebron / UVic-UCC
-      company_logo: 
-      company_url: ""
-      date_end: "2023-12-31"
-      date_start: "2023-01-01"
-      description: Developing my master thesis. Comparison of single cell trajectory inference methods
-      location: Barcelona
-      title: MSc student
-    title: Experience
-    
-  design:
-    columns: "2"
-- block: accomplishments
-  content:
-    date_format: Jan 2006
-    items:
-    - certificate_url: Advanced
-      date_end: ""
-      date_start: "2023-08-25"
-      description: ""
-      organization: Cambridge
-      organization_url: https://www.coursera.org
-      title: CAE Advanced C1
-      url: ""
-      
-    - certificate_url: Finalist 1st VHIO Computational Master Thesis Award 2023
-      date_end: ""
-      date_start: "2024-02-21"
-      description: ""
-      organization: Vall d'Hebron Institute Oncology
-      organization_url: https://www.coursera.org
-      title: Finalist 1st VHIO Computational Master Thesis Award 2023
-      url: "https://vhio.net/vhio-computational-oncology-master-thesis-award/"
-   
-    subtitle: null
-    title: Accomplish&shy;ments
-  design:
-    columns: "2"
 - block: collection
   content:
     count: 5
