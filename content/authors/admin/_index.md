@@ -1,10 +1,10 @@
 ---
 bio:
   matter.
-topics:
+education:
   courses:
   - course: PhD in Bioinformatics
-    institution: University of Vic – Central University of Catalonia
+    institution: University of Vic
     year: Current
   - course: MSc in Bioinformatics and Biostatistics
     institution: Open University of Catalonia
