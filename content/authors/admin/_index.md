@@ -1,7 +1,7 @@
 ---
 bio:
   matter.
-education:
+topics:
   courses:
   - course: PhD in Bioinformatics
     institution: University of Vic
@@ -20,7 +20,9 @@ interests:
 
 organizations:
 - name: Iris-CC - Bioinformatics and Bioimaging (BI-SQUARED)
-  url: https://urecerca.uvic.cat/CawDOS/jsf/seleccionPersonalEstamento/seleccionPersonal.jsf?tipus=grup&figura=R0957&idioma=en
+  url: https://iris-cc.cat/
+  
+#https://urecerca.uvic.cat/CawDOS/jsf/seleccionPersonalEstamento/seleccionPersonal.jsf?tipus=grup&figura=R0957&idioma=en
 role: Technologist for the Bioinformatics and Bioimaging Research Group of the IRIS-CC (UVic-UCC) - Ph.D. in Bioinformatics (UVic-UCC)
 skills:
 - items:
