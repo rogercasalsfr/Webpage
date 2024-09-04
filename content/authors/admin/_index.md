@@ -1,7 +1,7 @@
 ---
 bio:
   matter.
-education:
+topics:
   courses:
   - course: PhD in Bioinformatics
     institution: University of Vic – Central University of Catalonia
