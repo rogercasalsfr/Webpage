@@ -21,3 +21,8 @@ url_video: ""
 ---
 
 The main goal of this project is to predict gene expression based on gene regulatory networks. Using prior knowledge on drug-TF network, leveraging 
+
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_RCF.pdf" "newtab" >}}CV{{< /staticref >}}.
+
+
