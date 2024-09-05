@@ -80,19 +80,15 @@ superuser: true
 title: IRIS-CC omics
 ---
 
-
-Memoria actualizada
-To create a captivating and well-structured introduction for your IRIS-CC omics tools webpage, it’s important to balance clarity and engagement, especially for those who may not have a deep technical background. Here’s a refined version of your current text with a more structured flow and inviting tone:
-
-Welcome to the IRIS-CC Omics Tools Hub
+**Welcome to the IRIS-CC Omics Tools Hub**
 Your gateway to user-friendly tools and scripts for analyzing cutting-edge omics data. This platform is designed to make advanced bioinformatics accessible to everyone—from beginners to seasoned researchers—by providing intuitive guides and scripts for key areas of omics research.
 
 Explore Our Tools:
-Transcriptomics: Dive into single-cell RNA-seq analysis with step-by-step tools for gene expression studies. Whether you're new to RNA sequencing or looking for streamlined approaches, our scripts simplify complex workflows.
+  Transcriptomics: Dive into single-cell RNA-seq analysis with step-by-step tools for gene expression studies. Whether you're new to RNA sequencing or looking for         streamlined approaches, our scripts simplify complex workflows.
 
-Multi-Omics Integration: Learn how to integrate and analyze diverse datasets (transcriptomics, proteomics, epigenomics) to uncover comprehensive biological insights. We offer practical solutions that unify different omics layers into cohesive analyses.
+  Multi-Omics Integration: Learn how to integrate and analyze diverse datasets (transcriptomics, proteomics, epigenomics) to uncover comprehensive biological insights. We offer practical solutions that unify different omics layers into cohesive analyses.
 
-Machine Learning & Deep Learning: Harness the power of AI to analyze biological data with accessible, pre-built machine learning and deep learning models. Our tools allow you to implement predictive models without extensive coding knowledge.
+  Machine Learning & Deep Learning: Harness the power of AI to analyze biological data with accessible, pre-built machine learning and deep learning models. Our tools allow you to implement predictive models without extensive coding knowledge.
 
 
 {style="text-align: justify;"}
