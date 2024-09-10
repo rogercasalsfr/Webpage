@@ -10,7 +10,7 @@ links:
   name: Follow
   url: 
 #slides: {{< icon name="download" pack="fas" >}} Download the HTML {{< staticref "uploads/index.en.html" "newtab" >}}Pre-Processing Seurat{{< /staticref >}}. 
-summary: An example of using the in-built project page.
+summary: scRNA-seq complete analysis.
 tags:
 - Master thesis
 title: Comparison of Single Cell trajectory inference methods in cancer immunotherapy

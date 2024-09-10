@@ -10,7 +10,7 @@ links:
   name: Follow
   url: 
 #slides: {{< icon name="download" pack="fas" >}} Download the HTML {{< staticref "uploads/index.en.html" "newtab" >}}Pre-Processing Seurat{{< /staticref >}}. 
-summary: An example of using the in-built project page.
+summary: Machine learning and deep learning methods to predict.
 tags:
 - Master thesis
 title: Machine learning and deep learning
